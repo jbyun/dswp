@@ -14,8 +14,8 @@ body { padding: 20px }
 
 /* Most common stuff you'll need to change */
 
-	.coda-slider-wrapper { padding: 20px 0; direction:ltr; }
-	.coda-slider { /*background:#a9a9a9;*/ /* put your background color here */ }
+	.coda-slider-wrapper { padding: 0; direction:ltr; }
+	.coda-slider { /*background:#a9a9a9;*/ /* put your background color here */}
 	
 	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
 	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
@@ -24,14 +24,16 @@ body { padding: 20px }
 	.coda-slider, .coda-slider .panel {width: 550px;} 
 	
 	/* Change margin and width of the slider (with dynamic arrows) */
-	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {width: 550px;}
-	.coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {width: 610px;}
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0;}
 	
 	/* Arrow styling */
-	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
-	
+	.coda-nav-left a {background-image:url('http://desperatelyseekingwp.com/test2/wp-content/uploads/2011/05/leftarrow.png');
+						height:50px;width:194px; float:left; margin-left: 10px;}
+	.coda-nav-right a {background-image:url('http://desperatelyseekingwp.com/test2/wp-content/uploads/2011/05/rightarrow.png');
+						height:50px;width:165px; float:right; margin-right: 10px;}
 	/* Tab nav */
-	.coda-nav ul li a.current { background: #39c }
+	.coda-nav ul li a.current { background: #39c;}	
 	
 	/* Panel padding */
 	.coda-slider .panel-wrapper { padding: 20px }
@@ -42,15 +44,14 @@ body { padding: 20px }
 /* Don't change anything below here unless you know what you're doing */
 
 	/* Tabbed nav */
-	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden; }
 	.coda-nav ul li { display: inline }
 	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
 	
 	/* Miscellaneous */
-	.coda-slider-wrapper { clear: both; overflow: hidden; }
-	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider-wrapper { clear: both; overflow: hidden;}
+	.coda-slider { overflow: hidden; position: relative }
 	.coda-slider .panel { display: block; float: left }
 	.coda-slider .panel-container { position: relative }
-	.coda-nav-left, .coda-nav-right { float: left;display:none; /*remove display:none; to show left & right arrows*/ }
-	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none; text-indent:-9999em;}
 	
