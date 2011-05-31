@@ -209,7 +209,7 @@ padding: 0;
 	display:block;
 	overflow:hidden;
 	color: #636363;
-	font-family: "raleway-1","raleway-2" sans-serif;
+	font-family: "Josefin Sans", sans-serif; 
 	font-size: 11px;
 	text-transform: uppercase;
 	}
@@ -339,7 +339,7 @@ padding: 0;
 	
 .home .featured h2 {
 	color: #87999f;
-	font-family: "raleway-1","raleway-2" sans-serif; 
+	font-family: "Josefin Sans", sans-serif; 
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight:600;
@@ -579,7 +579,7 @@ background: url('images/double-line.jpg') center center no-repeat;
 	padding: 25px 0 25px;
 	text-align:center;
 	color: #59959c;
-	font-family: "raleway-1","raleway-2" sans-serif;
+	font-family: "Josefin Sans", sans-serif; 
 }
 .page-id-1047 h1 {}
 
@@ -992,7 +992,7 @@ background: url('images/arrow-r.jpg') center right no-repeat;
 	padding: 8px 5px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: "raleway-1","raleway-2" sans-serif;
+	font-family: "Josefin Sans", sans-serif; 
 }
 
 btn,
@@ -1180,7 +1180,7 @@ btn,
 
 #footer .white p {
 	color: #fff;
-	font-family: "raleway-1","raleway-2" sans-serif;
+	font-family: "Josefin Sans", sans-serif; 
 	font-size: 20px;
 	text-align: right;
 }
