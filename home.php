@@ -55,9 +55,7 @@
 		</div><!-- end #home-left -->		
 		
 		<div id="home-right">
-				<?php //if( function_exists( 'wp_slick_slider' ) ){ wp_slick_slider( 'front-page-2' ); } ?>
-				<?php if ( function_exists( 'get_smooth_slider' ) ) {
-     get_smooth_slider(2); }?>
+
 		</div>		
 
 		<div id="tagline">
