@@ -22,6 +22,7 @@
 	<?php //add testimonials widget
 	?>
 	 <div id="testimonials">
-     <?php echo do_shortcode('[anythingslider cat="testimonials" width="245" height="130"]')
+	 <?php 
+	echo do_shortcode('[wpcodaslider id=testimonial-slider cat=538 show=3 args=autoSlide:true]
      ;?>
      </div>
