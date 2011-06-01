@@ -2,10 +2,6 @@
 /** Start the engine **/
 require_once(TEMPLATEPATH.'/lib/init.php');
 
-add_action('get_header', 'my_load_scripts');
-function my_load_scripts() {
-    wp_enqueue_script('cycle-lite', CHILD_URL.'/lib/js/cycle-lite.js', array('jquery'), '1.1', TRUE);
-	}
 
 // Force layout on homepage
 add_filter('genesis_pre_get_option_site_layout', 'child_home_layout');
@@ -31,6 +27,12 @@ add_action('genesis_header','child_custom_nav');
 		</div>
 	<?php }
 	
+//add sidebar widgets file
+add_action('genesis_sidebar', 'child_include_presidebar',5); 
+function child_include_presidebar() {
+    require(CHILD_DIR.'/pre-sidebar.php');
+}
+
 
 	// Add widgeted footer section
 add_action('genesis_footer', 'child_include_footer_widgets',5); 
