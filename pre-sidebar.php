@@ -22,7 +22,7 @@
 	<?php //add testimonials widget
 	?>
 	 <div id="testimonials">
-	 <?php 
-	echo do_shortcode('[wpcodaslider id=testimonial-slider cat=538 show=3 args=autoSlide:true]
-     ;?>
+			<?php
+			echo do_shortcode('[wpcodaslider id=testimonial-slider cat=538 show=3 args=autoSlide:true, dynamicArrows:false, dynamicTabs:false]
+			'); ?>
      </div>
