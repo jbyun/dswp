@@ -1115,6 +1115,9 @@ btn,
 	padding: 10px 0 10px 45px;
 	}
 	
+	#footer-widgets #text-3, #footer-widgets #text-4, #footer-widgets #text-5 {
+		float:left;
+	}
 	
 #footer-widgets #text-3 h4{
 	background: url('images/contact-merged.jpg') bottom left no-repeat;
