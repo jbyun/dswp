@@ -55,7 +55,9 @@
 		</div><!-- end #home-left -->		
 		
 		<div id="home-right">
-
+			<?php
+			echo do_shortcode('[wpcodaslider id=home-slider cat=539 show=3 args= autoSlide:true]
+			'); ?>
 		</div>		
 
 		<div id="tagline">
