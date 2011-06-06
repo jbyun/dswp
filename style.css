@@ -307,9 +307,18 @@ padding: 0;
 */
 
 #home-right {
-	width: 450px;
+	width: 455px;
+	height: 378px;
 	clear:right;
 	float:left;
+	margin-top: 13px;
+	border:1px solid #d7dee0;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	box-shadow: 0 0 3px #999999;
+	-moz-box-shadow: 0 0 3px #999999;
+	
+
 	margin-left:10px;
 }
 
