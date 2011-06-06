@@ -82,6 +82,9 @@ textarea {
 	text-decoration: none;
 }
 
+a {
+	outline:none;
+}
 blockquote,
 input,
 select,
@@ -286,7 +289,7 @@ padding: 0;
 	margin-left:10px;
 }
 
-#home-right #slider{
+/*#home-right #slider{
 	box-shadow: 0 0 6px #888;
 	-moz-box-shadow: 0px 0px 6px #888;
 	-webkit-box-shadow: 0px 0px 6px #888;
@@ -301,13 +304,14 @@ padding: 0;
 #home-right #slider img {
 	margin: 5px 5px 5px 10px;
 	}
+*/
 
-/*#home-right {
+#home-right {
 	width: 450px;
 	clear:right;
 	float:left;
 	margin-left:10px;
-}*/
+}
 
 .home .featured {
 	width: 220px;
@@ -857,8 +861,7 @@ background: url('images/arrow-r.jpg') center right no-repeat;
 ------------------------------------------------------------ */
 
 #sidebar {
-	display: inline;
-	float: right;
+	float: left;
 	width: 300px;
 }
 
@@ -1112,6 +1115,7 @@ btn,
 	padding: 10px 0 10px 45px;
 	}
 	
+	
 #footer-widgets #text-3 h4{
 	background: url('images/contact-merged.jpg') bottom left no-repeat;
 	}
@@ -1301,13 +1305,11 @@ btn,
 background: url('images/sign-up.jpg') top left no-repeat;
 width: 280px;
 height: 122px;
-display:block;
-clear:both;
-}
+float:left;}
 
 #sidebar #socialize {
-display:block;
-clear:both;
+float:left;
+border:none;
 }
 
 #sidebar #socialize a {
@@ -1319,8 +1321,7 @@ background: url('images/testimonials.jpg') top left no-repeat;
 width: 280px;
 height: 245px;
 margin-left: 2px;
-display:block;
-clear:both;
+float:left;
 }
 
 fieldset {
