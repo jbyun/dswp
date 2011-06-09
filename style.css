@@ -234,12 +234,7 @@ padding: 0;
 	height:40px;
 	margin-top:0;
 }
-#header ul.nav li a.support {
-	background: url('images/support.jpg') center center no-repeat;
-	width:75px;
-	height:40px;
-	margin-top:0;
-}
+
 #header ul.nav li a.portfolio {
 	background: url('images/portfolio.jpg') center center no-repeat;
 	width:75px;
@@ -398,6 +393,11 @@ padding: 0;
 .category-13 .taxonomy-description {
 margin:0;
 }
+
+#portfolio h2.title {
+	display:none;
+	}
+
 
 /* Content-Sidebar Wrap
 ------------------------------------------------------------ */
@@ -585,16 +585,32 @@ h6 {
 }
 
 h1{
-background: url('images/double-line.jpg') center center no-repeat;
-	font-size: 22px;
+	font-size: 28px;
 	font-weight: bold;
-	padding: 25px 0 25px;
+	padding: 0 0 25px;
 	text-align:center;
 	color: #59959c;
 	font-family: "Josefin Sans", sans-serif; 
 }
-.page-id-1047 h1 {}
+h2{
+	font-size: 22px;
+	font-weight: bold;
+	padding: 15px 0 15px;
+	text-align:left;
+	color: #59959c;
+	font-family: "Josefin Sans", sans-serif; 
+}
+h2 a {
+font-size: 22px;
+	font-weight: bold;
+color: #59959c;
+	font-family: "Josefin Sans", sans-serif; 
+}
 
+h2 a:hover {
+	color: #59959c;
+	text-decoration:underline;
+	}
 
 .page h1 {
 	margin: 0 0 5px;
@@ -630,12 +646,12 @@ text-align:center;
 	-html-border-radius: 0;	
 	border-radius: 0;
 	border: none;
-	padding:0 0 10px;
+	padding:0 0 10px 15px;
+	text-align:left;
 	line-height:44px;
 	margin-top:0px!important;
  	font-family: "myriad-pro-1","myriad-pro-2";
 	text-transform: uppercase;
-	font-weight:bold;
 	font-size: 16px;
 	color: #87999f;
 }
@@ -1001,6 +1017,7 @@ background: url('images/arrow-r.jpg') center right no-repeat;
 	cursor: pointer;
 	font-size: 11px;
 	padding: 8px 5px;
+	width: 75px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: "Josefin Sans", sans-serif; 
@@ -1353,7 +1370,7 @@ list-style:none;
 	margin: -5px 15px 0;
 	}
 
-.full-width-content .toggle-content, .full-width-content .toggle2-content-noframe, .full-width-content .toggle3-content, .full-width-content .toggle4-content, .full-width-content .toggle5-content, .full-width-content .toggle6-content {
+.full-width-content .toggle-content, .full-width-content .toggle2-content-noframe, .toggle3-content-noframe {
 	width: 875px;
 	padding: 15px;
 	margin-left:3px;
@@ -1372,9 +1389,3 @@ div.post-1047 h1.entry-title {
 	display:none;
 }
 
-div.post-1047 div.toggle-box h3.toggle-title, 
-div.post-1047 div.toggle2-box h3.toggle2-title {
-	font-weight: normal;
-	text-align:left;
-	padding-left: 15px;
-}
